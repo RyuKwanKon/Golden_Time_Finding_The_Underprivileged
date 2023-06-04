@@ -5,7 +5,9 @@
 DataSet :  https://drive.google.com/uc?id=1ez0tNCX49Cxjzt6Ir4jkxy7Z9TnzOV60
 
 Team member
-* 201935039 류관곤
+* 201935039 Ryu KwanKon
+* 201935013 Kim Daehun
+* 201935028 Kim Jongmin
 
 <details>
 <summary>[Data curation And Load Dataset]</summary>
