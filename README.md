@@ -13,8 +13,8 @@ Team member
 
 <details>
 <summary>[Data curation And Load Dataset]</summary>
-  
-  
+<br/>
+<br/>
 Low(sample) X Column(feature) = 35626 X 33<br/>
 
 Target: [현장도착년월일, 현장도착시각] <br/>
@@ -72,8 +72,9 @@ Nan Data
 
 <details>
 <summary>[Data Preprocessing]</summary>
-  
-  
+<br/>
+<br/>
+ 
 Handle Dirty Data
 1.   현장도착년월일, 현장도착시각 --> Drop Sample <br/>
   Since the corresponding data feature corresponds to the target, a sample with an empty feature cannot be used. <br/>
@@ -111,7 +112,7 @@ Feature Creation
 
 <details>
 <summary>[Data Preprocessing] - Random Forest</summary>
-  
+<br/><br/>
   
 Feature selection
 
@@ -128,7 +129,8 @@ Encoding
 
 <details>
 <summary>[Data Modeling and Evalution] - Random Forest</summary>
-
+<br/><br/>
+  
 Model - Random Forest
 * Used to predict arrival times for each region
 <br/><br/>
