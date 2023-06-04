@@ -1,6 +1,7 @@
 # Golden_Time_Finding_The_Underprivileged
 
 ### [Data Science Term Project - Golden_Time_Finding_The_Underprivileged]
+---
 Github :
 https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged</br>
 DataSet :  https://drive.google.com/uc?id=1ez0tNCX49Cxjzt6Ir4jkxy7Z9TnzOV60
@@ -62,3 +63,81 @@ Nan Data
 *   구급대원1_자격      17737
 *   구급대원2_자격         94
 *   운전요원_자격          16
+
+### [Data Preprocessing]
+
+
+---
+
+Handle Dirty Data
+1.   현장도착년월일, 현장도착시각 --> Drop Sample <br/>
+  Since the corresponding data feature corresponds to the target, a sample with an empty feature cannot be used. <br/>
+
+
+2.   구급처종명, 접수경로 --> Fill "기타" <br/>
+  For this data, Target replaced the value of "기타" that was treated as an exception in the existing data set.
+
+
+3.   긴급구조구, 긴급구조동, 긴급구조리 --> Drop Sample <br/>
+  The data feature is a feature that can have a high correlation with the target value.
+
+
+4.   긴급구조시 --> Drop Column <br/>
+  Since the data set is a Gyeonggi-do data set, the values of the corresponding features are all the same.
+
+
+5.   집계년도 --> Drop column <br/>
+  Since the data set is a 2022 data set, all data values for feature are the same.
+
+6. Outlier Data --> Drop Sample
+<br/><br/>
+
+Feature Selection
+*   drop_columns: [긴급구조시, 집계년도, 외국인여부, 환자연령, 환자성별, 국적, 구급대원1_자격, 구급대원2_자격, 운전요원_자격, 환자증상2, 질병외_교통사고, 질병외_사고부상, 질병외_비외상성손상, 귀소년월일, 귀소시각]
+<br/><br/>
+
+Feature Creation
+*   출동년월일, 현장도착년월일 --> 출동시각-년, 출동시각-월, 출동시각-일, 현장도착시각-년, 현장도착시각-월, 현장도착시각-일
+*   출동시각, 현장도착시각 --> 출동시각-시간, 출동시각-분, 현장도착시각-시간, 현장도착시각-분
+
+
+### [Data Preprocessing] - RandomForest
+
+---
+
+Feature selection
+
+
+* categorical_columns [출동안전센터, 접수경로, 관할구분, 구급처종명, 긴급구조지역]
+* date_columns [신고시각-월, 신고시각-일, 신고시각-시간, 신고시각-분, 출동시각-월, 출동시각-일, 출동시각-시간, 출동시각-분]
+* float_columns [현장과의거리]
+* target [현장도착시각-월, 현장도착시각-일, 현장도착시각-시간, 현장도착시각-분]
+
+Encoding
+*  One-Hot-Encoding
+
+### [Data Modeling and Evalution] - Random Forest
+
+---
+
+Model - Random Forest
+* Used to predict arrival times for each region
+<br/><br/>
+
+Evaluation
+* MSE
+* MAE
+* R^2 Score
+<br/><br/>
+
+Improve - Using GridSearch, parameter tuning
+* n_estimators : 20 (limit of computational speed)
+* max_depth : 12
+* min_samples_leaf : 8
+* min_samples_split : 8
+<br/><br/>
+
+Result
+* MSE: 10.712984950240724 --> 1.3607359571304816
+* MAE: 2.741359063662159 --> 0.938702478484288
+* R^2 Score: 0.6489067220589864 --> 0.9475601394094079
