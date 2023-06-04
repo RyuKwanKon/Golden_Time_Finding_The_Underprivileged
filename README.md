@@ -9,10 +9,11 @@ DataSet :  https://drive.google.com/uc?id=1ez0tNCX49Cxjzt6Ir4jkxy7Z9TnzOV60
 Team member
 * 201935039 류관곤
 
-### [Data curation And Load Dataset]
+<details>
+<summary>[Data curation And Load Dataset]</summary>
 
 ---
-
+```
 Low(sample) X Column(feature) = 35626 X 33<br/>
 
 Target: [현장도착년월일, 현장도착시각] <br/>
@@ -63,7 +64,9 @@ Nan Data
 *   구급대원1_자격      17737
 *   구급대원2_자격         94
 *   운전요원_자격          16
-
+```
+  
+</details>
 ### [Data Preprocessing]
 
 
