@@ -1,11 +1,7 @@
 # Golden_Time_Finding_The_Underprivileged
 
-### [Data Science Term Project - Golden_Time_Finding_The_Underprivileged]
-
 ---
 
-Github :
-https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged</br>
 DataSet :  https://drive.google.com/uc?id=1ez0tNCX49Cxjzt6Ir4jkxy7Z9TnzOV60
 
 Team member
