@@ -1,7 +1,9 @@
 # Golden_Time_Finding_The_Underprivileged
 
 ### [Data Science Term Project - Golden_Time_Finding_The_Underprivileged]
+
 ---
+
 Github :
 https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged</br>
 DataSet :  https://drive.google.com/uc?id=1ez0tNCX49Cxjzt6Ir4jkxy7Z9TnzOV60
@@ -11,6 +13,8 @@ Team member
 
 <details>
 <summary>[Data curation And Load Dataset]</summary>
+  
+  
 Low(sample) X Column(feature) = 35626 X 33<br/>
 
 Target: [현장도착년월일, 현장도착시각] <br/>
@@ -63,9 +67,13 @@ Nan Data
 *   운전요원_자격          16
   
 </details>
+
 ---
+
 <details>
 <summary>[Data Preprocessing]</summary>
+  
+  
 Handle Dirty Data
 1.   현장도착년월일, 현장도착시각 --> Drop Sample <br/>
   Since the corresponding data feature corresponds to the target, a sample with an empty feature cannot be used. <br/>
@@ -98,10 +106,13 @@ Feature Creation
 *   출동시각, 현장도착시각 --> 출동시각-시간, 출동시각-분, 현장도착시각-시간, 현장도착시각-분
 
 </details>
+
 ---
 
 <details>
 <summary>[Data Preprocessing] - Random Forest</summary>
+  
+  
 Feature selection
 
 * categorical_columns [출동안전센터, 접수경로, 관할구분, 구급처종명, 긴급구조지역]
@@ -112,11 +123,11 @@ Feature selection
 Encoding
 *  One-Hot-Encoding
 </details>
+
 ---
 
 <details>
 <summary>[Data Modeling and Evalution] - Random Forest</summary>
----
 
 Model - Random Forest
 * Used to predict arrival times for each region
@@ -140,4 +151,5 @@ Result
 * MAE: 2.741359063662159 --> 0.938702478484288
 * R^2 Score: 0.6489067220589864 --> 0.9475601394094079
 </details>
+
 ---
