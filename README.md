@@ -156,6 +156,8 @@ Result
 
 <details>
 <summary>[Data Preprocessing] - KMeans Clustering</summary>
+<br/><br/>
+  
 Feature Selection
 
 의식상태, 환자증상1, 현장과의거리
@@ -173,10 +175,10 @@ Encoding
 
 ---
 
-
 <details>
 <summary>[Data Modeling and Evalution] - KMeans Clustering 2-D</summary>
-
+<br/><br/>
+  
 Model - KMeans Clustering
 
 Evaluation - Elbow Method
