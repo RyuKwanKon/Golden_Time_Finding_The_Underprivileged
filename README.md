@@ -153,3 +153,33 @@ Result
 </details>
 
 ---
+
+<details>
+<summary>[Data Preprocessing] - KMeans Clustering</summary>
+Feature Selection
+
+의식상태, 환자증상1, 현장과의거리
+* 현장도착시각-년, 현장도착시각-월, 현장도착시각-일, 현장도착시각-시간, 현장도착시각-분
+* 신고시각-년, 신고시각-월, 신고시각-일, 신고시각-시간, 신고시각-분
+
+Feature Reduction
+
+* Using PCA, The characteristics of '의식상태', '환자증상1', and '현장과의거리' are combined to form one dimension.
+
+Encoding
+
+* To give different weights for each patient's state of consciousness and symptoms.
+</details>
+
+---
+
+
+<details>
+<summary>[Data Modeling and Evalution] - KMeans Clustering 2-D</summary>
+
+Model - KMeans Clustering
+
+Evaluation - Elbow Method
+</details>
+
+---
