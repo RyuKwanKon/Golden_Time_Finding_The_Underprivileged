@@ -9,6 +9,11 @@ Team member
 * 201935013 Kim Daehun
 * 201935028 Kim Jongmin
 
+[Objective]
+<br/>
+<br/>
+To find the marginalized area within the golden time and propose the fact through a government agency or contest.
+
 <details>
 <summary>[Data curation And Load Dataset]</summary>
 <br/>
@@ -185,3 +190,6 @@ Evaluation - Elbow Method
 </details>
 
 ---
+
+[Reference]
+Dataset: https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1
