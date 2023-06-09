@@ -11,7 +11,8 @@ Team member
 
 [Objective]
 <br/><br/>
-To find the marginalized area within the golden time and propose the fact through a government agency or contest.
+To find the marginalized area within the golden time and propose the fact through a government agency or contest.<br/>
+Golden Time is directly related to human life, and in Korea, there is no data in specific regions for this fact, so I thought it was a meaningful topic.
 
 
 ---
@@ -213,6 +214,16 @@ Evaluation
 * silhouette_score
   - When K is 5, the arrival time on the X-axis is not separated in a situation where the value of the Y-axis is large, so it is judged that it is not meaningful clustering.
 
+</details>
+
+---
+
+<details>
+<summary>[Analysis]</summary>
+<br/><br/>
+  
+* It is expressed as the frequency of labels of clustering according to each region of Seongnam-si.
+* In most dongs in Seongnam-si, the values corresponding to the first cluster appear to be distributed in the majority. Therefore, most areas in Seongnam City are predicted to be able to get help quickly in emergencies.
 </details>
 
 ---
