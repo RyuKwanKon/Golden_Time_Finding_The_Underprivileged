@@ -15,6 +15,8 @@ Team member
 
 <img width="800" alt="스크린샷 2023-06-10 오전 4 17 55" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/437d49bb-6252-475d-91a8-54b7b94fb8f3">
 
+<br/><br/>
+
 <details>
 <summary>[Project Objective]</summary>
 <br/><br/>
