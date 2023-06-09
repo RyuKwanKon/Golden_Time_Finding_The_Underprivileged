@@ -118,7 +118,7 @@ Feature Creation
 
 <details>
 <summary>[Data Preprocessing] - Random Forest</summary>
-<br/><br/>
+<br/>
 
 Reason for selection
 
@@ -172,6 +172,13 @@ Result
 <summary>[Data Preprocessing] - KMeans Clustering</summary>
 <br/><br/>
   
+Reason for selection
+
+* This is because there is no risk level of emergency action in the dataset, which is the target we want to guess.
+* We will cluster using the association according to the arrival time of the site and the risk of the event, and use the estimated label as the level of first aid risk in the area.
+* Simplest partitioning method for clustering analysis and widely used in data mining  applications.
+<br/>  
+  
 Feature Selection
 
 의식상태, 환자증상1, 현장과의거리
@@ -193,9 +200,19 @@ Encoding
 <summary>[Data Modeling and Evalution] - KMeans Clustering 2-D</summary>
 <br/><br/>
   
-Model - KMeans Clustering
+Model
+* KMeans Clustering
 
-Evaluation - Elbow Method
+K
+* 6
+* It is judged that the most ideal clustering was achieved by separating the X-axis and the Y-axis.
+
+Evaluation
+* Elbow Method
+  -  When K is 2 or 3, the arrival time on the X axis is not separated, so it is judged that it is not meaningful clustering.
+* silhouette_score
+  - When K is 5, the arrival time on the X-axis is not separated in a situation where the value of the Y-axis is large, so it is judged that it is not meaningful clustering.
+
 </details>
 
 ---
