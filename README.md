@@ -14,6 +14,10 @@ Team member
 <br/>
 To find the marginalized area within the golden time and propose the fact through a government agency or contest.
 
+
+---
+
+
 <details>
 <summary>[Data curation And Load Dataset]</summary>
 <br/>
