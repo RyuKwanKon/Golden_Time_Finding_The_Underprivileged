@@ -11,7 +11,6 @@ Team member
 
 [Objective]
 <br/>
-<br/>
 To find the marginalized area within the golden time and propose the fact through a government agency or contest.
 
 
@@ -195,5 +194,8 @@ Evaluation - Elbow Method
 
 ---
 
-[Reference]
+[Reference] 
+
+---
+
 Dataset: https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1
