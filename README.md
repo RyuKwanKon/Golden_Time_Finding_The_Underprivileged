@@ -224,6 +224,8 @@ Evaluation
   
 * It is expressed as the frequency of labels of clustering according to each region of Seongnam-si.
 * In most dongs in Seongnam-si, the values corresponding to the first cluster appear to be distributed in the majority. Therefore, most areas in Seongnam City are predicted to be able to get help quickly in emergencies.
+  
+<img width="752" alt="스크린샷 2023-06-10 오전 3 22 27" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/e5a23499-d80a-49b6-98ea-0dc7082997ab">
 </details>
 
 ---
