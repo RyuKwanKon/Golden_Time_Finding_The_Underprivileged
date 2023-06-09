@@ -215,10 +215,7 @@ Evaluation
   - When K is 5, the arrival time on the X-axis is not separated in a situation where the value of the Y-axis is large, so it is judged that it is not meaningful clustering.
 
 
-<div>
-<img width="578" alt="스크린샷 2023-06-10 오전 3 24 58" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/7a31e478-5fb6-4c8d-b57a-34115972bdba">
-<img width="573" alt="스크린샷 2023-06-10 오전 3 25 15" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/04a1fde9-5750-40c4-b3bc-e37b1cf83628">
-</div>
+<img width="330" alt="스크린샷 2023-06-10 오전 3 26 40" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/a102b81f-db2a-4bdf-ad4c-7f47ffa9fa0a">
 </details>
 
 ---
