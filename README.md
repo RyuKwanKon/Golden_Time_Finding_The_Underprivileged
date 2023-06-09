@@ -8,14 +8,7 @@ Team member
 * 201935039 Ryu KwanKon
 * 201935013 Kim Daehun
 * 201935028 Kim Jongmin
-
-[Architecture]
-
----
-
-<img width="800" alt="스크린샷 2023-06-10 오전 4 17 55" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/437d49bb-6252-475d-91a8-54b7b94fb8f3">
-
-<br/><br/>
+* 
 
 <details>
 <summary>[Project Objective]</summary>
@@ -238,6 +231,16 @@ Evaluation
   
 <img width="836" alt="스크린샷 2023-06-10 오전 3 24 03" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/91abd116-199b-4ad9-bedb-eba9f1eda6fc">
 </details>
+
+---
+
+<br/>
+
+[Architecture]
+
+---
+
+<img width="800" alt="스크린샷 2023-06-10 오전 4 17 55" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/437d49bb-6252-475d-91a8-54b7b94fb8f3">
 
 ---
 
