@@ -214,6 +214,11 @@ Evaluation
 * silhouette_score
   - When K is 5, the arrival time on the X-axis is not separated in a situation where the value of the Y-axis is large, so it is judged that it is not meaningful clustering.
 
+
+<div>
+<img width="578" alt="스크린샷 2023-06-10 오전 3 24 58" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/7a31e478-5fb6-4c8d-b57a-34115972bdba">
+<img width="573" alt="스크린샷 2023-06-10 오전 3 25 15" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/04a1fde9-5750-40c4-b3bc-e37b1cf83628">
+</div>
 </details>
 
 ---
@@ -225,7 +230,7 @@ Evaluation
 * It is expressed as the frequency of labels of clustering according to each region of Seongnam-si.
 * In most dongs in Seongnam-si, the values corresponding to the first cluster appear to be distributed in the majority. Therefore, most areas in Seongnam City are predicted to be able to get help quickly in emergencies.
   
-<img width="752" alt="스크린샷 2023-06-10 오전 3 22 27" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/e5a23499-d80a-49b6-98ea-0dc7082997ab">
+<img width="836" alt="스크린샷 2023-06-10 오전 3 24 03" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/91abd116-199b-4ad9-bedb-eba9f1eda6fc">
 </details>
 
 ---
