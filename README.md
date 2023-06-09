@@ -10,7 +10,7 @@ Team member
 * 201935028 Kim Jongmin
 
 [Objective]
-<br/>
+<br/><br/>
 To find the marginalized area within the golden time and propose the fact through a government agency or contest.
 
 
@@ -119,7 +119,13 @@ Feature Creation
 <details>
 <summary>[Data Preprocessing] - Random Forest</summary>
 <br/><br/>
-  
+
+Reason for selection
+
+* Random Forest is an algorithm that creates a number of decision trees and gives the final answer by ensemble and majority voting.
+* Processing various data types: Random Forest can handle both categorical and continuous features.
+* High predictive performance: Random Forest performs predictions by combining various decision trees, which typically provides higher predictive performance than other algorithms.
+
 Feature selection
 
 * categorical_columns [출동안전센터, 접수경로, 관할구분, 구급처종명, 긴급구조지역]
@@ -194,8 +200,6 @@ Evaluation - Elbow Method
 
 ---
 
-[Reference] 
-
----
-
+[Reference]
+<br/><br/>
 Dataset: https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1
