@@ -246,4 +246,6 @@ Evaluation
 
 [Reference]
 <br/><br/>
-Dataset: https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1
+Dataset: https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1 <br/>
+Picture: https://bizn.donga.com/news/article/all/20230109/117344932/2 <br/>
+Picture: https://www.javatpoint.com/machine-learning-random-forest-algorithm
