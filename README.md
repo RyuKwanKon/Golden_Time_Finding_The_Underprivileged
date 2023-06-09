@@ -9,16 +9,21 @@ Team member
 * 201935013 Kim Daehun
 * 201935028 Kim Jongmin
 
-<img width="900" alt="스크린샷 2023-06-10 오전 4 17 55" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/437d49bb-6252-475d-91a8-54b7b94fb8f3">
+[Architecture]
 
-[Objective]
+---
+
+<img width="800" alt="스크린샷 2023-06-10 오전 4 17 55" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/437d49bb-6252-475d-91a8-54b7b94fb8f3">
+
+<details>
+<summary>[Project Objective]</summary>
 <br/><br/>
 To find the marginalized area within the golden time and propose the fact through a government agency or contest.<br/>
 Golden Time is directly related to human life, and in Korea, there is no data in specific regions for this fact, so I thought it was a meaningful topic.
 
+</details>
 
 ---
-
 
 <details>
 <summary>[Data curation And Load Dataset]</summary>
