@@ -224,16 +224,16 @@ Evaluation
 
 <details>
 <summary>[Analysis]</summary>
-<br/><br/>
+<br/>
   
 * It is expressed as the frequency of labels of clustering according to each region of Seongnam-si.
 * The results of the cluster were most ideally chosen to be K=6, where the arrival time and patient risk were well separated.
 * In most dongs in Seongnam-si, the values corresponding to the first cluster appear to be distributed in the majority. Therefore, most areas in Seongnam City are predicted to be able to get help quickly in emergencies.
-* Looking at the actual risk of the golden time blind spot reported, it can be seen that Seongnam City is an area where emergency situations can be dealt with quickly.
-  
+* Looking at the actual risk of the golden time blind spot reported, it can be seen that Seongnam City is an area where emergency situations can be dealt with quickly.<br/>
+
 <img width="836" alt="스크린샷 2023-06-10 오전 3 24 03" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/91abd116-199b-4ad9-bedb-eba9f1eda6fc">
 <br/>
-[Actual Golden Time Blind Spot Risk Reported]
+[Actual Golden Time Blind Spot Risk Reported]<br/>
 <img width="579" alt="스크린샷 2023-06-10 오전 10 40 09" src="https://github.com/RyuKwanKon/Golden_Time_Finding_The_Underprivileged/assets/97783148/6983b41d-d8de-412f-a57b-ac8524d0a700">
 
 </details>
