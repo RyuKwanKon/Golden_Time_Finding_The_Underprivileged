@@ -8,7 +8,7 @@ Team member
 * 201935039 Ryu KwanKon
 * 201935013 Kim Daehun
 * 201935028 Kim Jongmin
-* 
+
 
 <details>
 <summary>[Project Objective]</summary>
@@ -239,8 +239,6 @@ Evaluation
 </details>
 
 ---
-
-<br/>
 
 [Architecture]
 
